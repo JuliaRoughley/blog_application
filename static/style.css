@@ -67,3 +67,64 @@ h1 {
   background-color: #15202b;
   color: #fff;
 }
+.update-button,
+.delete-button {
+  display: inline-block;
+  background-color: #000080;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-button:hover,
+.delete-button:hover {
+  background-color: #0000a0;
+}
+
+.update-button:active,
+.delete-button:active {
+  background-color: #00006b;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #000080;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0000a0;
+}
+
+form input[type="submit"]:active {
+  background-color: #00006b;
+}
+

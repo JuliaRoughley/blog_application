@@ -1,1 +1,20 @@
-[{"post_id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."}, {"post_id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}, {"id": "5588e503-797a-48a5-a4d3-7b6ebf1396e3", "title": "Blog Post 3", "author": "Dr Julia Roughley", "content": "testing to see if I can code!"}]
+[
+    {
+        "id": "85ca8c26-fe9b-426f-97b1-e75efe41da52",
+        "title": "First blog post",
+        "author": "Author 1",
+        "content": "I've changed the content!"
+    },
+    {
+        "id": "0e5072ed-9062-4ab4-a722-99cae32e4016",
+        "title": "Another one!",
+        "author": "ME",
+        "content": "navdjofbpiuaen"
+    },
+    {
+        "id": "c476199c-02c1-4803-bb05-039251185aa2",
+        "title": "Yes it's working!",
+        "author": "Me again",
+        "content": "This is great!"
+    }
+]
