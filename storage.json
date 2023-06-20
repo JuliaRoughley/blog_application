@@ -1,4 +1,1 @@
-[
-    {"post_id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."},
-    {"post_id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}
-]
+[{"post_id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."}, {"post_id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}, {"id": "5588e503-797a-48a5-a4d3-7b6ebf1396e3", "title": "Blog Post 3", "author": "Dr Julia Roughley", "content": "testing to see if I can code!"}]

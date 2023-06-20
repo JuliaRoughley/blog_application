@@ -36,6 +36,18 @@ def add():
     return render_template('add.html')
 
 
+@app.route('/delete/<int:post_id>', methods=['POST'])
+def delete(post_id):
+    """Finds the blog post with the given id and removes it from the list, then redirects back to the home page"""
+    for post in blog_posts:
+        if post['id'] == post_id:
+            blog_posts.remove(post)
+            break
+
+    return redirect(url_for('index'))
+
+
+
 @app.route('/')
 def index():
     """Pass the blog_posts list to the index.html template"""
