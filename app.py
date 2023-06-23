@@ -42,8 +42,13 @@ def delete(post_id):
     blog_posts = load_blog_posts()
     for post in blog_posts:
         if post['id'] == post_id:
-            blog_posts.remove(post)
+            post_to_delete = post
             break
+
+    if post_to_delete is None:
+        return "Post not found", 404
+
+    blog_posts.remove(post_to_delete)
 
     with open('storage.json', 'w') as fileobj:
         json.dump(blog_posts, fileobj, indent=4)
@@ -63,6 +68,7 @@ def update(post_id):
         if blog_post['id'] == post_id:
             post = blog_post
             break
+
     if post is None:
         return "Post not found", 404
 
@@ -95,4 +101,4 @@ def load_blog_posts():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="127.0.0.1", port=int(5000))
